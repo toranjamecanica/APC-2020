@@ -5,7 +5,7 @@ import dash
 from dash import dcc
 from dash  import html
 
-def grafico():
+def despesas():
   dados = pd.read_csv("Despesas pelo Inep.csv",encoding='latin1',sep=";")  #armazendo banco de dados
 
   dados_array = dados.values
